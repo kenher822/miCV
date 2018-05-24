@@ -1,0 +1,72 @@
+body{
+    background-image: url(../images/fondo.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'HoneyScript', Arial, Helvetica, sans-serif;
+    position: relative;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+
+h1:hover, h2:hover, h3:hover{
+    color: blue;
+}
+
+h1{
+    color: #d74932;
+    font-size: 100px !important;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;  
+}
+
+h2{
+    color: #fc07eb;
+    font-size: 30px !important;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: left;  
+    margin: 15px;   
+}
+
+h3{
+    color: #fc07eb;
+    font-size: 30px !important;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;  
+    margin: 15px; 
+    justify-content: center;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.titulo:hover{
+    font-size: 1.8em;
+    align-content: center;
+}
+
+.cajon{    
+    margin: 5px;
+    border-radius: 10px;
+    border: 5px brown;
+    box-shadow: 6px 6px 1px rgba(14, 8, 0, 0.418);
+}
+
+img{
+    width: 3em;
+    align-items: left;
+    margin: 0px 0px 0px 250px;
+    box-shadow: 6px 6px 1px rgba(14, 8, 0, 0.418);
+}
+
+
+@font-face {
+    font-family: 'HoneyScript';
+    src: url('../fuentes/HoneyScript-Light.ttf') format('truetype');
+}
